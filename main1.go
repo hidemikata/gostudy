@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-    "strings"
+	"strings"
 )
 
 var (
@@ -21,20 +21,20 @@ const (
 
 func main() {
 
-    fmt.Println("hello" + "world")
-    fmt.Println("hello"[3])
-    fmt.Println(string("hello"[3]))
-    var s string = "world"
-    s = strings.Replace(s, "w", "a", 1)
-    fmt.Println(s)
+	fmt.Println("hello" + "world")
+	fmt.Println("hello"[3])
+	fmt.Println(string("hello"[3]))
+	var s string = "world"
+	s = strings.Replace(s, "w", "a", 1)
+	fmt.Println(s)
 	fmt.Println(strings.Contains(s, "orld"))
 	fmt.Println(`test
       test"`)
 
-    tt, ff := true, false
-    fmt.Printf("%T %v %t\n", tt, tt, tt)
-    fmt.Printf("%T %v %t\n", tt, tt, 0)
-    fmt.Printf("%T %v %t\n", ff, ff, ff)
+	tt, ff := true, false
+	fmt.Printf("%T %v %t\n", tt, tt, tt)
+	fmt.Printf("%T %v %t\n", tt, tt, 0)
+	fmt.Printf("%T %v %t\n", ff, ff, ff)
 
 	fmt.Println(Username)
 	fmt.Println(Password)
